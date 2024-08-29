@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "HW1_MH.html",
+    "href": "HW1_MH.html",
+    "title": "Data, Science, Machine, Man, GOD, what does it mean…",
+    "section": "",
+    "text": "Being a data scientist requires an understanding of how to analyze and manipulate data for a variety of tasks, traditionally trained in a way more suited for private sector/industry work. Data scientist need to be adept at using statistical software not only to analysis the data, but also for making it into a format that is usable and efficient in terms of resources and processing."
+  },
+  {
+    "objectID": "HW1_MH.html#what-does-it-mean-to-be-a-data-scientist",
+    "href": "HW1_MH.html#what-does-it-mean-to-be-a-data-scientist",
+    "title": "Data, Science, Machine, Man, GOD, what does it mean…",
+    "section": "",
+    "text": "Being a data scientist requires an understanding of how to analyze and manipulate data for a variety of tasks, traditionally trained in a way more suited for private sector/industry work. Data scientist need to be adept at using statistical software not only to analysis the data, but also for making it into a format that is usable and efficient in terms of resources and processing."
+  },
+  {
+    "objectID": "HW1_MH.html#data-science-vs-statistics",
+    "href": "HW1_MH.html#data-science-vs-statistics",
+    "title": "Data, Science, Machine, Man, GOD, what does it mean…",
+    "section": "Data Science vs Statistics",
+    "text": "Data Science vs Statistics\nData science and statistics are two field that are intimately linked with one another, albeit with different focuses. Data science is more focused on the management of data using statistical software while statistics is more focused on the analysis of data using mathematical models. In a way it can be thought of as the difference between an applied and theoretical science, in which data science would be the applied science and statistics the theoretical science. Overall, both fields are quite similar and utilize similar/the same practices. software, techniques, and theories."
+  },
+  {
+    "objectID": "HW1_MH.html#where-do-i-fall-in",
+    "href": "HW1_MH.html#where-do-i-fall-in",
+    "title": "Data, Science, Machine, Man, GOD, what does it mean…",
+    "section": "Where do I fall in?",
+    "text": "Where do I fall in?\nI would consider myself as falling more on the side of statistics for the following reasons:\n\nMy career goals are to work in research, specifically on topics somewhere in between psychology and social work\nI’m more interested in using statistical software to answer questions and hopefully run my own research projects one day\nI enjoy learning about statistics a bit more than the coding aspect as coding is a bit more daunting of a field"
+  },
+  {
+    "objectID": "HW1_MH.html#iris-petal-analysis",
+    "href": "HW1_MH.html#iris-petal-analysis",
+    "title": "Data, Science, Machine, Man, GOD, what does it mean…",
+    "section": "Iris Petal Analysis",
+    "text": "Iris Petal Analysis\n\nUsing R to determine the type, structure, and class of y for the density of petal width\n\ny &lt;- density(iris$Petal.Width)\ntypeof(y)\n\n[1] \"list\"\n\nstr(y)\n\nList of 7\n $ x        : num [1:512] -0.656 -0.648 -0.64 -0.633 -0.625 ...\n $ y        : num [1:512] 0.00163 0.0018 0.00199 0.00219 0.00241 ...\n $ bw       : num 0.252\n $ n        : int 150\n $ call     : language density.default(x = iris$Petal.Width)\n $ data.name: chr \"iris$Petal.Width\"\n $ has.na   : logi FALSE\n - attr(*, \"class\")= chr \"density\"\n\nclass(y)\n\n[1] \"density\"\n\n\n\n\nPlot of Petal Width Density"
+  }
+]
